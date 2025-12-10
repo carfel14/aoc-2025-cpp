@@ -1,0 +1,54 @@
+# Build outputs
+build/
+cmake-build-*/
+dist/
+bin/
+obj/
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Intermediate/compiler files
+*.pch
+*.pdb
+*.ilk
+*.mod
+*.tlog
+*.cache
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env/
+.venv*/
+.venv-*/
+.env*/
+.idea/
+
+# Editors/OS
+.vscode/
+.vs/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Inputs/backups (keep only canonical inputs)
+input*.txt
+test*.txt
+*.bak
+*.tmp
+
+# Generated metadata
+*.idx
+*.iml
